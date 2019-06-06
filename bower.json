@@ -1,0 +1,34 @@
+{
+  "name": "lolapi",
+  "version": "1.0.0",
+  "authors": [
+    "peter/fu"
+  ],
+  "description": "League of Legends API challenge front end",
+  "main": "index",
+  "keywords": [
+    "League",
+    "of",
+    "Legends",
+    "API",
+    "challenge",
+    "front",
+    "end"
+  ],
+  "license": "ISC",
+  "homepage": "index",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/static/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "bootstrap-material-design": "~0.3.0",
+    "d3": "~3.5.6",
+    "font-awesome": "~4.4.0"
+  }
+}

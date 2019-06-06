@@ -1,0 +1,90 @@
+{
+    "champion": {
+        "Ban_Rate_Per_Game": 0.00382,
+        "Pick_Rate": 0.02072,
+        "Assists_Rate": 7.847007722007722,
+        "Death_Rate": 6.9232625482625485,
+        "Kills_Rate": 4.976351351351352,
+        "KDA": 1.8522133147438131,
+        "Gold_Earned_Average": 10912.16361003861,
+        "Gold_Spent_Average": 10116.082046332047,
+        "First_Blood_Average": 0.07577220077220077,
+        "First_Inhibitor_Assist_Average": 0.12162162162162163,
+        "First_Inhibitor_Kill_Average": 0.02750965250965251,
+        "First_Tower_Kill_Average": 0.048745173745173745,
+        "First_Tower_Assist_Average": 0.02895752895752896,
+        "Largest_Killing_Spree_Average": 2.062258687258687,
+        "Largest_Multi_Kill_Average": 1.2012548262548262,
+        "Largest_Critical_Strike": 421,
+        "Magic_Damage_Dealt_To_Champion_Average": 19255.624517374516,
+        "Minions_Killed_Average": 148.21283783783784,
+        "Neutral_Minion_Killed_Average": 4.86969111969112,
+        "Neutral_Minion_Killed_Enemy_Jungle_Average": 1.8793436293436294,
+        "Pentakills_Average": 0.00048262548262548264,
+        "Physical_Damage_Dealt_To_Champion_Average": 802.3359073359073,
+        "Total_Damage_Dealt_To_Champion_Average": 20309.162162162163,
+        "Total_Damage_Taken_Average": 34498.37258687259,
+        "Total_Heal_Average": 2587.004826254826,
+        "Total_Time_Crowd_Control_Dealt_Average": 1050.511583011583,
+        "Tower_Kills_Average": 0.5704633204633205,
+        "True_Damage_Dealt_To_Champion_Average": 250.6833976833977,
+        "Sight_Wards_Bought_Average": 0.3252895752895753,
+        "Vision_Wards_Bought_Average": 0.1640926640926641,
+        "Wards_Bought_Average": 0.4893822393822394,
+        "Wards_Placed_Average": 5.879826254826255,
+        "Wards_Killed_Average": 0.2249034749034749,
+        "Win_Rate": 0.527992277992278
+    },
+    "Items": {
+        "one": {
+            "name": "Rod of Ages",
+            "percentages": "64.09%",
+            "win": "56.09%"
+        },
+        "two": {
+            "name": "Rylai’s Crystal Scepter",
+            "percentages": "35.76%%",
+            "win": "62.48%"
+        },
+        "three": {
+            "name": "Seraph’s Embrace",
+            "percentages": "31.12%",
+            "win": "59.68%"
+        },
+        "four": {
+            "name": "Thornmail",
+            "percentages": "19.98%",
+            "win": "55.07%"
+        },
+        "five": {
+            "name": "Liandry’s Torment",
+            "percentages": "18.09%",
+            "win": "63.73%"
+        },
+        "six": {
+            "name": "Netherstride Grimoire",
+            "percentages": "9.07%",
+            "win": "68.08%"
+        },
+        "seven": {
+            "name": "Dead Man’s Plate",
+            "percentages": "8.73%",
+            "win": "56.90%"
+        },
+        "eight": {
+            "name": "Ruby Sightstone",
+            "percentages": "8.44%",
+            "win": "51.42%"
+        },
+        "nine": {
+            "name": "Frozen Heart",
+            "percentages": "7.43%",
+            "win": "53.24%"
+        },
+        "ten": {
+            "name": "Warmog’s Armor",
+            "percentages": "6.90%",
+            "win": "59.44%"
+        }
+    }
+}

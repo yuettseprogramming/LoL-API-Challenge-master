@@ -1,0 +1,36 @@
+//
+   Created by pl on 8/28/15.
+
+doctype html
+html
+   head(lang='en')
+      meta(charset='utf8')
+      link(href='bower_components/bootstrap/dist/css/bootstrap.min.css' rel='stylesheet' type='text/css')
+      link(href='bower_components/bootstrap-material-design/dist/css/material-fullpalette.min.css' rel='stylesheet' type='text/css')
+      link(href='bower_components/bootstrap-material-design/dist/css/ripples.min.css' rel='stylesheet' type='text/css')
+      link(href='bower_components/font-awesome/css/font-awesome.min.css' rel='stylesheet' type='text/css')
+      link(href='dist/main.min.css' rel='stylesheet' type='text/css')
+      block title
+   body
+      script(src='bower_components/jquery/dist/jquery.min.js')
+      script(src='bower_components/bootstrap/dist/js/bootstrap.min.js')
+      script(src='bower_components/bootstrap-material-design/dist/js/ripples.min.js')
+      script(src='bower_components/bootstrap-material-design/dist/js/material.min.js')
+      script(src='bower_components/d3/d3.js')
+      script(src='dist/API.js')
+      .navbar.navbar-default
+         .container-fluid
+            .navbar-header
+               button.navbar-toggle.collapsed(data-toggle='collapse' data-target='#mainNavBar' aria-expanded='false')
+                  span.sr-only Toggle navigation
+                  span.icon-bar
+                  span.icon-bar
+                  span.icon-bar
+               a.navbar-brand(href='#') Black Market Brawlers Analytic
+            .collapse.navbar-collapse#mainNavBar
+               ul.nav.navbar-nav
+                  li: a(href='/') Summary
+                  li: a(href='/champions') Champions
+      block content
+      #footer.container
+         h4 Black Market Brawlers Analytics isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.

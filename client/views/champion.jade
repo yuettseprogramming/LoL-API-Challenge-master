@@ -1,0 +1,66 @@
+//
+   Created by pl on 8/28/15.
+extends layout
+block title
+   title Champion
+block content
+   .container
+        .row
+            .col-md-12
+                img.center-block.img-circle(src="http://ddragon.leagueoflegends.com/cdn/5.15.1/img/champion/"+champPicName+".png")
+                h3.text-center= champName
+        .row
+            .col-md-6
+                table.table.table-bordered.table-hover.table-responsive
+                    - var count = 0
+                    each num, key in champion
+                        tr
+                        if count == 0
+                            td= key.split('_').join(' ')
+                            td= (num*100).toFixed(4) + '%'
+                        else if count == 1
+                            td= key.split('_').join(' ')
+                            td= (num*100).toFixed(4) + '%'
+                        else if count <= 16
+                            td= key.split('_').join(' ')
+                            td= num.toFixed(4)
+                        - count++
+
+            .col-md-6
+                table.table.table-bordered.table-hover.table-responsive
+                    -var count = 0
+                    each num, key in champion
+                        tr
+                        if count == 33
+                            td= key.split('_').join(' ')
+                            td= (num*100).toFixed(4) + '%'
+                        else if count >= 17
+                            td= key.split('_').join(' ')
+                            td= num.toFixed(4)
+                        - count++
+
+        h1 Most Popular Legendary Items
+
+        .row
+            .col-sm-12
+                table.table
+                    thead
+                    tr
+                        th
+                        each item in Items
+                            th: img.img-responsive(src='./asset/png/item/'+item.name.replace(/’/g, "").split(' ').join('').toLowerCase()+'.png')
+                    tbody
+                    tr
+                        th(scope='row') Item Bought
+                        each item in Items
+                            td= item.percentages
+                    tr
+                        th(scope='row') Item Win Rate
+                        each item in Items
+                            td= item.win
+
+                    //each item in Items
+                    //tr
+                    //    td= 'Item Percentages' + item.percentages
+                    //tr
+                    //    td= 'Win Rate with Item'+ item.win
